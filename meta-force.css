@@ -21,18 +21,17 @@
 }
 
 body{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .main-width {
-    width: 73%;
-    max-width: 95%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .hero {
     width: 100%;
     height: 100%;
+    padding: 0 13.5%;
 }
 
 .hero header .logo img {
@@ -40,7 +39,7 @@ body{
 }
 
 .burger {
-    /* margin-top: 25px; */
+    margin-top: 25px;
     display: none;
 }
 
@@ -131,7 +130,7 @@ nav ul .first li a:hover {
     right: 0;
     top: 0;
     z-index: -1;
-    /* max-width: 100%; */
+    width: 100%;
 }
 
 .content .writing p{
@@ -209,7 +208,7 @@ nav ul .first li a:hover {
     background: radial-gradient(#492903,20%, rgb(0, 0, 0));
     margin-top: 50px;
     box-shadow: 0px -20px 50px 20px black;
-    padding: 100px 0;
+    padding: 100px 15%;
 }
 
 .hero2 .item2 .box2 {
@@ -234,9 +233,9 @@ nav ul .first li a:hover {
 }
 
 .main-width2 {
-    width: 73%;
-    max-width: 95%;
-    margin: 0 auto;
+    /* width: 73%;
+    max-width: 95%; */
+    /* margin: 0 auto; */
 }
 
 .hero2 .item2 i {
@@ -388,7 +387,6 @@ nav ul .first li a:hover {
 
     .nav-links .first {
         display: flex;
-        /* width: 100vw; */
         flex-direction: column;
         align-items: center;
         margin-top: 65px;
@@ -413,20 +411,21 @@ nav ul .first li a:hover {
         margin-left: -15px;
     }
 
+    .main-width {
+        padding: 0;
+        width: 100%;
+    }
 
+    .main-width2 {
+        width: 100%;
+    }
     .hero{
-        /* padding: 15px; */
+        width: 100%;
+        padding: 15px;
     }
 
     .hero .logo {
         display: none;
-    }
-
-    .main-width {
-        margin: unset;
-    }
-    .hero .main-width nav {
-        /* display: none; */
     }
 
     .hero .main-width .logo {
@@ -434,9 +433,10 @@ nav ul .first li a:hover {
     }
 
     .back-video {
-        height: 100vh;
-        /* width: 100%; */
-        top: -23vh;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        top: -165px;
     }
 
     .content .writing .smaller{
@@ -467,7 +467,6 @@ nav ul .first li a:hover {
     }
 
     .hero .main-width .item .box {
-        width: 385px;
         height: 91px;
     }
 
@@ -480,18 +479,17 @@ nav ul .first li a:hover {
     }
 
     .hero2 {
-        margin-top: -135px;
-        /* padding: 15px; */
+        padding: 0;
+        margin-top: -287px;
+        padding-top: 350px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 15px;
     }
 
-    .hero2 .item2 {
+
+    .hero2 .main-width2 .item2 {
         grid-template-columns: repeat(1, auto);
-        margin-top: 160px;
-    }
-
-    .hero2 .item2 .box2 {
-        width: 385px;
-        margin-left: -50px;
     }
 
     .hero2 .item2 i{
@@ -511,7 +509,6 @@ nav ul .first li a:hover {
     }
 
     .hero3 .top .logo2 {
-        /* display: flex; */
         justify-content: center;
     }
 
