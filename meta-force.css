@@ -458,8 +458,7 @@ nav ul .first li a:hover {
     .content img{
         margin-top: -63px;
         height: 140px;
-        margin-left: -100px;
-        display: none;
+        margin-left: -120px;
     }
     .hero .main-width .item {
         grid-template-columns: repeat(1,auto);
