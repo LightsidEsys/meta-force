@@ -1,16 +1,16 @@
 @font-face {
     font-family: lightside;
-    src: url(../font/DodgerSuperItalic-Dvm9.otf);
+    src: url(./font/DodgerSuperItalic-Dvm9.otf);
 }
 
 @font-face {
     font-family: light;
-    src: url(../font/RalewayLight-m7nx.ttf);
+    src: url(./font/RalewayLight-m7nx.ttf);
 }
 
 @font-face {
     font-family: lights;
-    src: url(../font/RalewayMedium-Pxyg.ttf);
+    src: url(./font/RalewayMedium-Pxyg.ttf);
 }
 
 *{
