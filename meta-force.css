@@ -127,10 +127,13 @@ nav ul .first li a:hover {
 
 .back-video {
     position: absolute;
-    right: 0;
-    top: 0;
+    /* right: 0; */
+    left: 0;
+    top: -150px;
     z-index: -1;
-    width: 100%;
+    /* height: 100%; */
+    /* width: 100; */
+    object-fit: cover;
 }
 
 .content .writing p{
@@ -358,6 +361,9 @@ nav ul .first li a:hover {
 }
 
 @media (max-width: 420px){
+    body {
+        overflow-x: hidden;
+    }
     .nav-links {
         position: fixed;
         right: 0;
@@ -433,10 +439,15 @@ nav ul .first li a:hover {
     }
 
     .back-video {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        top: -150px;
+        /* height: 100vh; */
+        /* width: 80vh; */
+        /* position: fixed; */
+        /* object-fit: cover; */
+        top: -380px;
+        /* left: 0; */
+        /* right: 0; */
+        left: -1508px;
+        /* object-position: 0; */
     }
 
     .content .writing .smaller{
@@ -482,10 +493,11 @@ nav ul .first li a:hover {
 
     .hero2 {
         padding: 0;
-        margin-top: -137px;
+        margin-top: -125px;
         padding-top: 160px;
         padding-right: 15px;
         padding-left: 15px;
+        /* display: none; */
         padding-bottom: 15px;
     }
 
@@ -504,6 +516,7 @@ nav ul .first li a:hover {
 
     .hero3 {
         margin-top: -5px;
+        display: none;
     }
 
     .hero3 .top {
