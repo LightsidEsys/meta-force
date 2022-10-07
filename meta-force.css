@@ -207,7 +207,7 @@ nav ul .first li a:hover {
     /* height: 50vh; */
     background: radial-gradient(#492903,20%, rgb(0, 0, 0));
     margin-top: 50px;
-    /* box-shadow: 0px -20px 50px 20px black; */
+    box-shadow: 0px -20px 50px 20px black;
     padding: 100px 15%;
 }
 
