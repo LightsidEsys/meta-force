@@ -436,28 +436,30 @@ nav ul .first li a:hover {
         height: 100%;
         width: 100%;
         object-fit: cover;
-        top: -165px;
+        top: -210px;
     }
 
     .content .writing .smaller{
-        font-size: 42px;
+        font-size: 38.5px;
         margin-top: -100px;
+        letter-spacing: 1px;
     }
 
     .content .bigger {
-        font-size: 58.5px;
-        margin-top: -11px;
+        font-size: 55px;
+        margin-top: -7px;
+        letter-spacing: 0.5px;
     }
 
     .content .writing p {
         font-size: 14px;
-        margin-top: 1px;
+        margin-top: 5px;
         font-weight: 500;
     }
 
     .content img{
-        margin-top: -63px;
-        height: 140px;
+        margin-top: -53px;
+        height: 130px;
         margin-left: -120px;
     }
     .hero .main-width .item {
@@ -545,7 +547,7 @@ nav ul .first li a:hover {
     }
 
     .content .writing .join {
-        margin-top: 30px;
+        margin-top: 50px;
         font-size: 16px;
         padding: 9px 130px;
         width: 303px;
