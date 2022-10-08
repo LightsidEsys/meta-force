@@ -51,11 +51,6 @@ body{
     transition: all 0.3s ease;
 }
 
-header .close {
-    background: blue;
-    display: none;
-}
-
 .hero header {
     display: flex;
     align-items: center;
@@ -277,11 +272,13 @@ nav ul .first li a:hover {
     border-radius: 15px;
 }
 
-.hero2 .item2 button {
+.hero2 .item2 a {
     background-color: transparent;
     border: 3px solid #EEAA43;
     color: #EEAA43;
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
     padding: 10px;
     border-radius: 100px;
     width: 120px;
@@ -289,7 +286,7 @@ nav ul .first li a:hover {
     outline: none;
 }
 
-.hero2 .item2 button:hover {
+.hero2 .item2 a:hover {
     background-color: #EEAA43;
     color: #fff;
 }

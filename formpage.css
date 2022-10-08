@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+body {
+    font-family: 'Sora', sans-serif;
+    background: radial-gradient(#492903,80%, rgb(0, 0, 0));
+}
+
+.formpage-header {
+    text-align: center;
+}
+
+textarea,
+input {
+    color: #EEAA43 !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+}
+
+.formpage {
+    margin-top: 7rem;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #EEAA43;
+}
+
+.nav-item {
+    -webkit-transition:300ms linear;
+    transition: 300ms linear;
+}
+
+.nav-item:hover {
+    background-color: #fff;
+    color: #EEAA43 !important;
+}
+
+.tab-content {
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 2px;
+}
+
+.form-box {
+    padding-bottom: 3rem;
+}
+
+.formpage-header h1 {
+    color: #fff !important;
+    font-weight: 500;
+    margin-bottom: 4rem;
+    margin-top: -4rem !important;
+}
+
+.formpage-header h6 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 4rem;
+    margin-top: -3rem !important;
+    line-height: 2.0;
+}
+
+.active {
+    color: #EEAA43 !important;
+}
+
+.form-text {
+    margin-top: 1rem;
+}
+
+.form-label {
+    color: #89898a;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+select {
+    color: #EEAA43 !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+}
+
+.btn-primary {
+    background-color: transparent !important;
+    border: 2px #EEAA43 solid !important;
+    color: #EEAA43;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #EEAA43 !important;
+}
+@media screen and (max-width: 768px) {
+    .formpage-header {
+        margin-top: -4.5rem !important ;
+    }
+    .form-box {
+        margin-top: -1rem;
+    }
+}
+@media screen and (max-width: 413px) {
+ .nav-link {
+     font-size: 12px;
+ }   
+}
