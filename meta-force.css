@@ -443,11 +443,12 @@ nav ul .first li a:hover {
         /* width: 80vh; */
         /* position: fixed; */
         /* object-fit: cover; */
-        top: -380px;
+        /* top: -380px; */
         /* left: 0; */
         /* right: 0; */
-        left: -1506px;
+        /* left: -1506px; */
         /* object-position: 0; */
+        display: none;
     }
 
     .content .writing .smaller{
