@@ -441,14 +441,16 @@ nav ul .first li a:hover {
     .back-video {
         /* height: 100vh; */
         /* width: 80vh; */
-        /* position: fixed; */
+        position: fixed;
+        margin-top: -220px;
+        margin-left: -550px;
         /* object-fit: cover; */
         /* top: -380px; */
         /* left: 0; */
         /* right: 0; */
         /* left: -1506px; */
         /* object-position: 0; */
-        display: none;
+        /* display: none; */
     }
 
     .content .writing .smaller{
