@@ -460,7 +460,7 @@ nav ul .first li a:hover {
         margin-top: -220px;
         /* width: 100%; */
         /* height: 100%; */
-        /* margin-left: -550px; */
+        margin-left: -550px;
         /* object-fit: cover; */
         /* top: -380px; */
         /* left: 0; */
@@ -536,7 +536,7 @@ nav ul .first li a:hover {
 
     .hero3 {
         margin-top: -5px;
-        display: none;
+        /* display: none; */
     }
 
     .hero3 .top {
